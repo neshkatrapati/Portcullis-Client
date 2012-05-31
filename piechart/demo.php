@@ -1,0 +1,72 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" dir="ltr">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<title>Canvas Pie Chart with Tooltips</title>
+
+<link rel="stylesheet" href="css/piechart.css" type="text/css" media="all" />
+<script type="text/javascript" src="scripts/mootools-beta-1.2b2.js"></script> 
+
+<!--[if IE]>
+	<script type="text/javascript" src="scripts/moocanvas.js"></script>
+<![endif]-->
+	
+<script type="text/javascript" src="scripts/piechart.js"></script> 	
+
+<style type="text/css">
+
+body    {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 16px;
+	margin: 20px 40px;
+}
+
+h1 {
+	font-size: 24px;
+	margin: 5px 0 0 0;
+	padding: 0 0 12px 0;
+}		
+
+a {
+	color: #690;
+	text-decoration: none;
+	}
+
+a:hover {
+	color: #e60;
+	text-decoration: none;
+	}
+
+p {
+	margin: 0 0 9px 0;
+	padding: 0;
+}
+
+</style>
+
+</head>
+<body>
+
+<h1>Canvas Pie Chart with Tooltips</h1>
+<p style="padding-bottom: 12px;">Tested in FF2, IE6, IE7, Safari2, and Opera9</p>
+
+<table class="pieChart">
+    <tr><th>Language  </th> <th>Value</th></tr>
+    <tr><td>JavaScript</td> <td>100  </td></tr>
+    <tr><td>CSS       </td> <td>200  </td></tr>
+</table>
+
+<?php
+echo "	<table class='pieChart'>
+    <tr><th>Language  </th> <th>Value</th></tr>
+    <tr><td>All Clear</td> <td>429</td></tr>
+    <tr><td>Failed</td> <td>67</td></tr>
+</table>" 
+
+
+?>
+</body>
+</html>
+
